@@ -1,1 +1,1 @@
-# shopingto
+# gamingbotdiscord
