@@ -8133,7 +8133,7 @@ var gg = message.guild.channels.find('name','طلب')
 if(!gg) return;
 if(gg) {
 gg.send({embed : new Discord.RichEmbed()
-.setDescription(`**ماذا تريد :question:  : \n ${lan}\nكم تدفع :link: :\n ${md} \n طلبك :question: :\n ${br}  \nمن الذي تشتري منه  : <@${message.author.id}> **`)  
+.setDescription(`**ماذا تريد :scroll:    : \n ${lan}\nكم تدفع :moneybag: : \n ${md} \n طلبك :round_pushpin: : \n ${br}  \nمن الذي تشتري منه :top:  : <@${message.author.id}> **`)  
           .setFooter(`ادارة السيرفر`)
 .setTimestamp()
 });
